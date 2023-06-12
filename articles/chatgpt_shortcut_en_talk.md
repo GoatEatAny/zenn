@@ -18,7 +18,7 @@ published: true
 ※このショートカットを使うには、ChatGPTアプリをインストールしておく必要があります。
 https://www.icloud.com/shortcuts/305676acd2e74203a5942eef98a75100
 
-##　ショートカットの利用方法
+## ショートカットの利用方法
 1. [ChatGPTアプリ](https://apps.apple.com/jp/app/chatgpt/id6448311069)をインストールし、OpenAIのアカウントを作成/ログイン
  ※すでにインストールしている場合は、最新版へバージョンアップしてください。
 
@@ -30,24 +30,24 @@ ChatGPTアプリをインストール/バージョンアップした直後、Cha
 2. [ショートカット](https://www.icloud.com/shortcuts/305676acd2e74203a5942eef98a75100)をダウンロード
 3. ショートカットを実行（必要に応じて、各種アクセスを許可）
  3-1. ショートカットを実行すると、ユーザ（あなた）の英語能力レベル選択フォームが表示されます。この中から、ユーザのレベルを選択してください。
- ![image1](/images/Shortcut_en_talk/img01.PNG))
+ ![image1](../images/Shortcut_en_talk/img01.PNG))
  *英語能力レベル選択フォーム*
 
  3-2. ChatGPTアプリが開き、最初のメッセージとして、トークテーマが英語で生成され、画面上部に日本語訳が表示されます。それぞれを読み終わったら日本語訳の「完了」をタップします。
  ※トークテーマはトークのきっかけの補助のため、もし別の話がしたい場合は、その旨を後の手順でChatGPTへリクエストしてください。
- ![image2](images/Shortcut_en_talk/img02.PNG)
+ ![image2](../images/Shortcut_en_talk/img02.PNG)
  *トークテーマ生成の様子*
 
  3-3. 次に、ユーザの会話相手であるSmithがトークテーマに沿った話をしてくれます。先ほどと同様に読み終わったら「完了」をタップしてください。
- ![image3](images/Shortcut_en_talk/img03.PNG)
+ ![image3](../images/Shortcut_en_talk/img03.PNG)
  *Smithのメッセージ生成の様子*
 
  3-4. 次に、画面上部に音声入力フォームが表示されます。Smithと会話をする感覚で話した後、音声入力フォームの「停止ボタン」をタップします。
- ![image4](images/Shortcut_en_talk/img04.PNG)
+ ![image4](../images/Shortcut_en_talk/img04.PNG)
  *音声入力フォーム*
 
  3-5. すると、話した内容がChatGPTへ渡され、Smithからの返事が生成されます。日本語訳の「完了」をタップすると、再び音声入力フォームが表示されます。
- ![image5](images/Shortcut_en_talk/img05.PNG)
+ ![image5](../images/Shortcut_en_talk/img05.PNG)
  *Smithからの返事生成の様子*
 
  3-6. これを繰り返すことで、Smithと英会話をすることができます。
@@ -60,7 +60,7 @@ ChatGPTアプリをインストール/バージョンアップした直後、Cha
 ### ショートカット画面のスクショ
 ショートカットのスクショが長いため、下記アコーディオン内に収納しています。
 :::details ショートカットのスクショ
-![image6](images()shortcut_en_talk_img08.png)
+![image6](../images/Shortcut_en_talk/img08.png)
 *ショートカット：English Talkingの画面*
 :::
 
