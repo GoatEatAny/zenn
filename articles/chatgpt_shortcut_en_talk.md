@@ -30,24 +30,24 @@ ChatGPTアプリをインストール/バージョンアップした直後、Cha
 2. [ショートカット](https://www.icloud.com/shortcuts/305676acd2e74203a5942eef98a75100)をダウンロード
 3. ショートカットを実行（必要に応じて、各種アクセスを許可）
 3-1. ショートカットを実行すると、ユーザ（あなた）の英語能力レベル選択フォームが表示されます。この中から、ユーザのレベルを選択してください。
-![image1](../images/chatgpt_shortcut_en_talk/img01.jpg)
+![image1](/images/chatgpt_shortcut_en_talk/img01.jpg)
 *英語能力レベル選択フォーム*
 
 3-2. ChatGPTアプリが開き、最初のメッセージとして、トークテーマが英語で生成され、画面上部に日本語訳が表示されます。それぞれを読み終わったら日本語訳の「完了」をタッします。
 ※トークテーマはトークのきっかけの補助のため、もし別の話がしたい場合は、その旨を後の手順でChatGPTへリクエストしてください。
-![image2](../images/chatgpt_shortcut_en_talk/img02.jpg)
+![image2](/images/chatgpt_shortcut_en_talk/img02.jpg)
 *トークテーマ生成の様子*
 
 3-3. 次に、ユーザの会話相手であるSmithがトークテーマに沿った話をしてくれます。先ほどと同様に読み終わったら「完了」をタップしてください。
-![image3](../images/chatgpt_shortcut_en_talk/img03.jpg)
+![image3](/images/chatgpt_shortcut_en_talk/img03.jpg)
 *Smithのメッセージ生成の様子*
 
 3-4. 次に、画面上部に音声入力フォームが表示されます。Smithと会話をする感覚で話した後、音声入力フォームの「停止ボタン」をタップします。
-![image4](../images/chatgpt_shortcut_en_talk/img04.jpg)
+![image4](/images/chatgpt_shortcut_en_talk/img04.jpg)
 *音声入力フォーム*
 
 3-5. すると、話した内容がChatGPTへ渡され、Smithからの返事が生成されます。日本語訳の「完了」をタップすると、再び音声入力フォームが表示されます。
-![image5](../images/chatgpt_shortcut_en_talk/img05.jpg)
+![image5](/images/chatgpt_shortcut_en_talk/img05.jpg)
 *Smithからの返事生成の様子*
 
 3-6. これを繰り返すことで、Smithと英会話をすることができます。
@@ -60,7 +60,7 @@ ChatGPTアプリをインストール/バージョンアップした直後、Cha
 ### ショートカット画面のスクショ
 ショートカットのスクショが長いため、下記アコーディオン内に収納しています。
 :::details ショートカットのスクショ
-![image6](../images/chatgpt_shortcut_en_talk/img08.jpg)
+![image6](/images/chatgpt_shortcut_en_talk/img08.jpg)
 *ショートカット：English Talkingの画面*
 :::
 
