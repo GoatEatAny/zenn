@@ -1,5 +1,5 @@
 ---
-title: "【無料】ChatGPTとiPhoneのShortcutsアプリを使って英会話ショートカットを作ってみた"
+title: "【無料】iPhoneでChatGPTアプリとShortcutsアプリを使って英会話ショートカットを作ってみた"
 emoji: "🤖"
 type: "tech"
 topics: [ChatGPT,Shortcuts,ショートカット,iPhone]
@@ -18,6 +18,11 @@ published: true
 ※このショートカットを使うには、ChatGPTアプリをインストールしておく必要があります。
 https://www.icloud.com/shortcuts/305676acd2e74203a5942eef98a75100
 
+:::message
+2023年6月12日現在、Apple側の不具合（おそらく）により、ショートカット共有用リンクからショートカットをダウンロードできない事象が発生しているようです。
+https://www.iphonetricks.org/shortcut-failed-to-verify-this-shortcut-error/
+:::
+
 ## ショートカットの利用方法
 1. [ChatGPTアプリ](https://apps.apple.com/jp/app/chatgpt/id6448311069)をインストールし、OpenAIのアカウントを作成/ログイン
  ※すでにインストールしている場合は、最新版へバージョンアップしてください。
@@ -30,28 +35,28 @@ ChatGPTアプリをインストール/バージョンアップした直後、Cha
 2. [ショートカット](https://www.icloud.com/shortcuts/305676acd2e74203a5942eef98a75100)をダウンロード
 3. ショートカットを実行（必要に応じて、各種アクセスを許可）
 
-3-1. ショートカットを実行すると、ユーザ（あなた）の英語能力レベル選択フォームが表示されます。この中から、ユーザのレベルを選択してください。
+*3-1*. ショートカットを実行すると、ユーザ（あなた）の英語能力レベル選択フォームが表示されます。この中から、ユーザのレベルを選択してください。
 ![image1](/images/chatgpt_shortcut_en_talk/img01.jpg =350x)
 *英語能力レベル選択フォーム*
 
-3-2. ChatGPTアプリが開き、最初のメッセージとして、トークテーマが英語で生成され、画面上部に日本語訳が表示されます。それぞれを読み終わったら日本語訳の「完了」をタッします。
+*3-2*. ChatGPTアプリが開き、最初のメッセージとして、トークテーマが英語で生成され、画面上部に日本語訳が表示されます。それぞれを読み終わったら日本語訳の「完了」をタッします。
 ※トークテーマはトークのきっかけの補助のため、もし別の話がしたい場合は、その旨を後の手順でChatGPTへリクエストしてください。
 ![image2](/images/chatgpt_shortcut_en_talk/img02.jpg =350x)
 *トークテーマ生成の様子*
 
-3-3. 次に、ユーザの会話相手であるSmithがトークテーマに沿った話をしてくれます。先ほどと同様に読み終わったら「完了」をタップしてください。
+*3-3*. 次に、ユーザの会話相手であるSmithがトークテーマに沿った話をしてくれます。先ほどと同様に読み終わったら「完了」をタップしてください。
 ![image3](/images/chatgpt_shortcut_en_talk/img03.jpg =350x)
 *Smithのメッセージ生成の様子*
 
-3-4. 次に、画面上部に音声入力フォームが表示されます。Smithと会話をする感覚で話した後、音声入力フォームの「停止ボタン」をタップします。
+*3-4*. 次に、画面上部に音声入力フォームが表示されます。Smithと会話をする感覚で話した後、音声入力フォームの「停止ボタン」をタップします。
 ![image4](/images/chatgpt_shortcut_en_talk/img04.jpg =350x)
 *音声入力フォーム*
 
-3-5. すると、話した内容がChatGPTへ渡され、Smithからの返事が生成されます。日本語訳の「完了」をタップすると、再び音声入力フォームが表示されます。
+*3-5*. すると、話した内容がChatGPTへ渡され、Smithからの返事が生成されます。日本語訳の「完了」をタップすると、再び音声入力フォームが表示されます。
 ![image5](/images/chatgpt_shortcut_en_talk/img05.jpg =350x)
 *Smithからの返事生成の様子*
 
-3-6. これを繰り返すことで、Smithと英会話をすることができます。
+*3-6*. これを繰り返すことで、Smithと英会話をすることができます。
 
 4. 必要に応じて、ショートカットをホーム画面に追加
 
@@ -70,8 +75,8 @@ ChatGPTアプリをインストール/バージョンアップした直後、Cha
 1. 作成したショートカット内で再度このショートカットを実行することで、ループ処理を行なっています。ここの「ショートカットからの入力」がない場合は、ループ中ではなく使い始めと判断し、英語能力レベルの質問を投げかけます。
 2. 「メニューから選択」アクションを使用して、ユーザの英語能力レベルの入力処理を行なっています。選択されたメニューに応じてレベルの数値が、後の処理にあるChatGPTへ渡すプロンプトに入ります。
 3. ユーザ自身のiCloud Drive上に「en_talking/theme.txt」を作成し、過去にショートカットを使用した際に生成されたテーマを過去5回分保存しています。この情報を都度読み取り、ChatGPTのプロンプトに含むことで、ChatGPTは過去5回分のテーマと重複しないように新しいテーマを生成します。
-4. ChatGPTアプリを開くことで、生成されたテキストをリアルタイムで確認できるようにしています。また、後の処理で表示される日本語訳と照らし合わせらすいかなと思いこのような実装にしています。（ChatGPTアプリとShortcutsアプリの連携自体はアプリを開かなくてもできます。）
-5. ChatGPTへ渡すプロンプトを「テキスト」アクションに記載し、それを「Ask ChatGPT」アクションで利用します。このアクションの設定、「Start new chat」を有効にすることで、新しいchatとして会話を始めることができます。また、プロンプト内で最初に生成するテキストへの命令として、「/talk_theme」コマンドを指定しているため、トークテーマが生成されます。
+4. ChatGPTアプリを開くことで、生成されたテキストをリアルタイムで確認できるようにしています。また、後の処理で表示される日本語訳と照らし合わせやすいかなと思いこのような実装にしています。（ChatGPTアプリとShortcutsアプリの連携自体はアプリを開かなくてもできます。）
+5. ChatGPTへ渡すプロンプトを「テキスト」アクションに記載し、それを「Ask ChatGPT」アクションで利用します。このアクションの設定「Start new chat」を有効にすることで、新しいchatとして会話を始めることができます。また、プロンプト内で最初に生成するテキストへの命令として、「/talk_theme」コマンドを指定しているため、トークテーマが生成されます。
 6. ChatGPTが生成したテキストは「テキストを読み上げる」アクションで読み上げつつ、「テキストを翻訳」アクションで翻訳後、「結果を表示」アクションで表示します。
 7. 「/smith」コマンドをChatGPTへ渡し、ユーザの会話相手Smithのメッセージを生成させます。
 8. ユーザの音声データを入力し、テキストへ変換後、ChatGPTへ渡します。
@@ -81,8 +86,81 @@ ChatGPTアプリをインストール/バージョンアップした直後、Cha
 ここでは、ChatGPTへ渡すプロンプトの説明をします。
 便宜上、「///」を使用してコメントを書きます。実際のショートカット内のプロンプト上にはコメントはありません。
 
+::::details 【コメントなし】コピペ用プロンプト
+:::md 【コメントなし】コピペ用プロンプト
+# english_talking_with_ai_apps
+*Author*: GoatEatAny
+*AI name*: Smith
+*User name*: 
+*Version*: 1.0
 
-```md
+##AI and User personal information
+### AI (Smith)
+* Role: User's friend
+* Age: 25
+* Gender: Woman
+* Lanage: English
+* Birthplace: US
+* character: Humorous, Expressive
+* Talk Style: Friendly, Straightforward
+* Situation: Daily talk in English
+
+### User
+* Lanage: English
+* Birthplace: Japan
+* character: Humorous, Optimistic
+* Talk Style: Friendly
+* Situation: Daily talk in English
+* English proficiency level: 
+
+## Features
+* Generate talk content as a user's friend.
+* To make it easier for users to talk, generate examples of responses to talk content generated by AI (YOU).
+* Talk content generated by AI (YOU) is converted into audio data and delivered to the user.
+* Follow the "commands", "rules" and "Examples" for detailed functions of this application.
+
+### The user's English proficiency level
+* Description: This is the user's English proficiency level. The lowest depth level is 1, and the highest is 5.
+1/5: Basic Explorer: Learners understand basic English alphabet and can use familiar expressions for everyday needs.
+2/5: Intermediate Communicator: Learners can engage in simple conversations and handle most situations in English-speaking areas.
+3/5: Proficient Speaker: Learners can interact with native speakers with some fluency and understand complex texts and nuances.
+4/5: Advanced User: They can express themselves in clear, structured text and are comfortable with all forms of English.
+5/5: Cultural Expert: Learners understand cultural references, humor, idioms, body language, and can articulate complex English information like native speakers.
+
+### commands
+* prefix: "/"
+* talk_theme: Generates a new theme that has not been used in the "Banned Talk Themes" so far. The theme will be selected according to the user's English proficiency level to provide appropriate topics for English conversation practice.
+* smith: Generate a natural, funny talk message according to "rules" based solely on Smith's perspective and personality. Messages from other characters are not included.
+
+### rules
+* 1. Generate a response according to the talk theme.
+* 2. Strictly follow user's commands. Particularly, when given the '/talk_theme' command, respond just Today's Theme, and when given the '/smith' command, respond as if you are Smith (YOU).
+* 3. Respond as if you are part of a real conversation, not a scripted dialogue.
+* 4. Provide natural conversational responses to the previous messages generated by AI (YOU) or User.
+* 5. Assume that AI (YOU) and User are communicating in the same digital space.
+* 6. Avoid mentioning the command words in the conversation.
+* 7. The generated response should be within 10 to 50 words in length.
+* 8. Tailor your responses to the user's English proficiency level.
+* 9. Upon receiving the "/talk_theme" command, generate a new theme that does not exist in the "Banned Talk Themes". Each theme generated is saved in "Banned Talk Themes" to ensure no duplication, and new themes should not be generated from this list.
+
+### Banned Talk Themes
+* Description: Banned Talk Themes are themes that users have banned. This is maintained to not generate banned talk themes.
+
+### Example
+* Description: These are examples of response of each commands. Reference these examples to generate funny unique content.
+
+#### /talk_theme
+Today's theme is <today's theme>.
+
+#### /smith
+<generate a talk message as smith>
+
+## init
+* /talk_theme
+:::
+::::
+
+```md 【コメントあり】プロンプト
 # english_talking_with_ai_apps
 *Author*: GoatEatAny
 *AI name*: Smith
