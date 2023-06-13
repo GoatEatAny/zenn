@@ -18,11 +18,6 @@ published: true
 ※このショートカットを使うには、ChatGPTアプリをインストールしておく必要があります。
 https://www.icloud.com/shortcuts/f441c0c933184a8eb53b269ece4a3830
 
-:::message
-2023年6月12日現在、Apple側の不具合（おそらく）により、ショートカット共有用リンクからショートカットをダウンロードできない事象が発生しているようです。
-https://www.iphonetricks.org/shortcut-failed-to-verify-this-shortcut-error/
-:::
-
 ## ショートカットの利用方法
 1. [ChatGPTアプリ](https://apps.apple.com/jp/app/chatgpt/id6448311069)をインストールし、OpenAIのアカウントを作成/ログイン
  ※すでにインストールしている場合は、最新版へバージョンアップしてください。
