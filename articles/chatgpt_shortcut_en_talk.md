@@ -160,7 +160,7 @@ Today's theme is <today's theme>.
 :::
 ::::
 
-```md 【コメントあり】プロンプト
+```md:【コメントあり】プロンプト
 # english_talking_with_ai_apps
 *Author*: GoatEatAny
 *AI name*: Smith
