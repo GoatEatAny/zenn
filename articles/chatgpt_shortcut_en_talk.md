@@ -87,7 +87,7 @@ ChatGPTアプリをインストール/バージョンアップした直後、Cha
 便宜上、「///」を使用してコメントを書きます。実際のショートカット内のプロンプト上にはコメントはありません。
 
 ::::details 【コメントなし】コピペ用プロンプト
-:::md:【コメントなし】コピペ用プロンプト
+```md:【コメントなし】コピペ用プロンプト
 # english_talking_with_ai_apps
 *Author*: GoatEatAny
 *AI name*: Smith
@@ -157,7 +157,7 @@ Today's theme is <today's theme>.
 
 ## init
 * /talk_theme
-:::
+```
 ::::
 
 ```md:【コメントあり】プロンプト
