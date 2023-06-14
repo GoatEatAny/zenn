@@ -237,7 +237,3 @@ Talk topic is <talk topic>.
 
 ## ChatGPTプロンプトの参考
 https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor#planning-lessons
-
-:::details test
-![image00](/images/chatgpt_shortcut_en_talk/img07.jpg =350x)
-:::
