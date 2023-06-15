@@ -19,8 +19,9 @@ published: true
 ## 作ったショートカット
 以下のリンクから、ショートカットをダウンロードできます。
 ※このショートカットを使うには、ChatGPTアプリをインストールしておく必要があります。
-https://www.icloud.com/shortcuts/e18e55bf32e54f6391a51fcec862a360
+https://www.icloud.com/shortcuts/31b93f26eff446b3a97420cec8b4063a
 
+![image1](/images/chatgpt_shortcut_ai_radio/img01.jpg =300x)
 
 ## ショートカットの利用方法
 1. [ChatGPTアプリ](https://apps.apple.com/jp/app/chatgpt/id6448311069)をインストールし、OpenAIのアカウントを作成/ログイン
@@ -31,7 +32,7 @@ ChatGPTアプリをインストール/バージョンアップした直後、Cha
 また、初めてChatGPTアプリをインストールした場合は、一度ChatGPTアプリ上で適当なメッセージを入力してください。
 :::
 
-2. [ショートカット](https://www.icloud.com/shortcuts/e18e55bf32e54f6391a51fcec862a360)をダウンロード
+2. [ショートカット](https://www.icloud.com/shortcuts/31b93f26eff446b3a97420cec8b4063a)をダウンロード
 3. ショートカットを実行（必要に応じて、各種アクセスを許可）
 
 **3-1**. ChatGPTアプリが開き、最初のメッセージとして、ラジオ番組のトークテーマが英語で生成され、画面上部に日本語訳が表示されます。それぞれを読み終わったら日本語訳の「完了」をタッします。
