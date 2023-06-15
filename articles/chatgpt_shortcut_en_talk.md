@@ -18,6 +18,8 @@ published: true
 ※このショートカットを使うには、ChatGPTアプリをインストールしておく必要があります。
 https://www.icloud.com/shortcuts/f441c0c933184a8eb53b269ece4a3830
 
+![image10](/images/chatgpt_shortcut_en_talk/img10.jpg =300x)
+
 ## ショートカットの利用方法
 1. [ChatGPTアプリ](https://apps.apple.com/jp/app/chatgpt/id6448311069)をインストールし、OpenAIのアカウントを作成/ログイン
  ※すでにインストールしている場合は、最新版へバージョンアップしてください。
@@ -237,3 +239,12 @@ Talk topic is <talk topic>.
 
 ## ChatGPTプロンプトの参考
 https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor#planning-lessons
+
+## おまけ
+日本語訳が必要ない方は、以下のショートカットがおすすめです。
+ショートカットをインストール後、Siriの言語設定を英語に変更して、「Hey Siri」の後に「Start English Training」と呼びかけると、Siri（ChatGPT）との英会話を開始できます。
+
+※このショートカットを使うには、ChatGPTアプリをインストールしておく必要があります。
+https://www.icloud.com/shortcuts/b32f48a696104a279d009827bb597396
+
+![image11](/images/chatgpt_shortcut_en_talk/img11.jpg =300x)
