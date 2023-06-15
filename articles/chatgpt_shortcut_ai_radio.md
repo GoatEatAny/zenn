@@ -21,7 +21,7 @@ published: true
 ※このショートカットを使うには、ChatGPTアプリをインストールしておく必要があります。
 https://www.icloud.com/shortcuts/31b93f26eff446b3a97420cec8b4063a
 
-![image1](/images/chatgpt_shortcut_ai_radio/img01.jpg =300x)
+![image1](/images/chatgpt_shortcut_ai_radio/img01.png =300x)
 
 ## ショートカットの利用方法
 1. [ChatGPTアプリ](https://apps.apple.com/jp/app/chatgpt/id6448311069)をインストールし、OpenAIのアカウントを作成/ログイン
