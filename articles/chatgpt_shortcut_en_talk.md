@@ -248,3 +248,6 @@ https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor#planning-lessons
 https://www.icloud.com/shortcuts/b32f48a696104a279d009827bb597396
 
 ![image11](/images/chatgpt_shortcut_en_talk/img11.jpg =300x)
+
+## 関連記事
+https://zenn.dev/goat_eat_any/articles/chatgpt_shortcut_ai_radio
